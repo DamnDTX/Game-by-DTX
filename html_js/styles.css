@@ -1,0 +1,29 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Pixelify+Sans&display=swap');
+
+
+:root{
+    --fonte-titulo:'Pixelify Sans', sans-serif;
+    --fonte-texto: 'Bitter', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.cabecalho__titulo{
+    font-size: 2.5rem;
+    font-family: var(--fonte-titulo);
+    color: green;
+}
+
+.cabecalho__descricao{
+    font-size: 1.5rem;
+    font-family: var(--fonte-texto);
+    color: whitesmoke;
+    
+}
